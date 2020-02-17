@@ -30,7 +30,7 @@ extension GridCell {
         imageView.layer.masksToBounds = true
         contentView.addSubview(imageView)
         
-        let inset:CGFloat = 10.0
+        let inset:CGFloat = 2.0
         NSLayoutConstraint.activate([
             imageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: inset),
             imageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -inset),
